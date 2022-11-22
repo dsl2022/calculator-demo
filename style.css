@@ -1,0 +1,64 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+#container {
+  border-radius: 25px;
+  background: black;
+  width: 35rem;
+  height: 80rem;
+}
+
+#display {
+  border: 1px solid white;
+  height: 25rem;
+}
+
+#row {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1.5rem 0rem 1.5rem 0rem;
+}
+
+#key-num {
+  text-align: center;
+  height: 6rem;
+  width: 6rem;
+  color: white;
+  border-radius: 100%;
+  border: 1px solid white;
+  font-size: 5rem;
+}
+
+#key-num-zero {
+  text-align: center;
+  height: 6rem;
+  width: 14.5rem;
+  color: white;
+  border-radius: 35px;
+  border: 1px solid white;
+  font-size: 5rem;
+}
+
+#key-symbol {
+  background: grey;
+  text-align: center;
+  height: 6rem;
+  width: 6rem;
+  color: black;
+  border-radius: 100%;
+  /* border: 1px solid white; */
+  font-size: 5rem;
+}
+
+#key-op {
+  background: orange;
+  text-align: center;
+  height: 6rem;
+  width: 6rem;
+  color: white;
+  border-radius: 100%;
+  /* border: 1px solid white; */
+  font-size: 5rem;
+}
